@@ -57,6 +57,7 @@ const listNotes = () => {
     log(chalk.inverse('Your notes'))
     notes.forEach(note => {
         log(chalk.magenta(note.title))
+        log(chalk.magenta(note.body))
     });
 }
 
@@ -74,7 +75,6 @@ const readNotes = (title) => {
 }
 
 module.exports = {
-    getNotes: getNotes,
     addNote: addNote,
     removeNote: removeNote,
     listNotes: listNotes,
