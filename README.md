@@ -1,6 +1,6 @@
 # Notes-app
 
-This is a simple notes app in which we can add , remove , read and list notes using command line args 
+This is a simple notes app in which we can add , remove , read and list notes using command line args and it covers only synchronous code for learning Node JS basics
 
 
 #  Example command line args
